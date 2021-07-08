@@ -1,4 +1,4 @@
-# My research of classification models and deployment of model to [docker](https://www.docker.com/) using [lask](https://flask.palletsprojects.com/en/2.0.x/).
+# My research of classification models and deployment of model to [docker](https://www.docker.com/) using [flask](https://flask.palletsprojects.com/en/2.0.x/).
 
 ## How to run:
 1. Install and run Docker
