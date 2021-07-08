@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #ffffff;
+}
+
+.form-upload {
+  width: 100%;
+  max-width: 430px;
+  padding: 15px;
+  margin: auto;
+} 
+
+.form-upload .checkbox {
+  font-weight: 400;
+}
+
+.form-upload .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-upload input[type="file"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#image_file.mb-4 {
+    margin-top: 20px!important;
+    border-radius: 15px!important;
+}

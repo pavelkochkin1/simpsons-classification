@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Simpsons Classification</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom styles for this template -->
+    <link href="/static/css/form_upload.css" rel="stylesheet">
+  </head>
+
+  <head>
+    <meta charset="utf-8">
+    <title>background-image</title>
+    <style>
+     body {
+      background-image: url(static/background.jpg);
+      background-size: cover; /* Фон занимает всю доступную площадь */
+     }
+    </style>
+  </head>
+
+  <body class="text-center">
+    <main class="form-upload">
+        <form  method=post enctype=multipart/form-data>
+            <h1 class="h3 mb-3 fw-normal">Please, upload your character!</h1>
+
+            <div class="form-floating">
+                <input type="file" class="form-control" id="image" name="image" required autofocus>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Predict</button>
+            <br>
+            {% if image_loc %}
+                <img class="rounded mt-3 mb-3" class="img-fluid shadow-2-strong" src="static/{{image_loc}}" width="360" alt="...">
+                <h3 class="h3 mb-3 fw-normal">Prediction: {{prediction}}</h3>
+                <p class="p mb-p fw-normal">Probability: {{proba}}</p>
+            {%endif%}
+            <p class="mt-5 mb-3 text-muted">@pavelkochkin1</p>
+        </form>
+    </main>
+
+
+    
+  </body>
+</html>
