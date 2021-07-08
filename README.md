@@ -1,2 +1,14 @@
-# simpsons-classification
-My research of classification models and deployment of model to docker using flask.
+# My research of classification models and deployment of model to [docker](https://www.docker.com/) using [lask](https://flask.palletsprojects.com/en/2.0.x/).
+
+## How to run:
+1. Install and run Docker
+2. Build Docker image using `docker build . -t simp_server`
+3. Run Docker container using `docker run --rm -it -p 8888:8888 simp_server`
+4. Go to `http://127.0.0.1:80/docs` to see all available methods of the API
+
+## Source code
+* [simpsons_baseline.ipynb](simpsons_baseline.ipynb) contains my research
+* [demo.py](demo.py) contains server logic
+* [model/model.py](model/model.py) class of model
+* [template](template) and [static](static) includes html and css files for app
+* [Dockerfile](Dockerfile) describes a Docker image that is used to run the app
