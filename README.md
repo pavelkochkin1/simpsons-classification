@@ -10,5 +10,5 @@
 * [simpsons_baseline.ipynb](simpsons_baseline.ipynb) contains my research
 * [demo.py](demo.py) contains server logic
 * [model/model.py](model/model.py) class of model
-* [template](template/) and [static](static/) includes html and css files for app
+* [template/](/template/) and [static/](/static/) includes html and css files for app
 * [Dockerfile](Dockerfile) describes a Docker image that is used to run the app
