@@ -12,3 +12,6 @@
 * [model/model.py](model/model.py) class of model
 * [templates](templates/) and [static](static/) includes html and css files for app
 * [Dockerfile](Dockerfile) describes a Docker image that is used to run the app
+
+## Example
+1. Run the docker container and open the `http://localhost:8888/`.
