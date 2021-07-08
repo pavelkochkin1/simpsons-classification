@@ -15,8 +15,8 @@
 
 ## Example
 1. Run the docker container and open the `http://localhost:8888/`.
-![alt text](ref/first.png)
+![alt text](ref/first.png =250px)
 2. Upload your image and press `Predict` button.
-![alt text](ref/second.png)
+![alt text](ref/second.png =250px)
 3. Now we have prediction and probability.
-![alt text](ref/third.png)
+![alt text](ref/third.png =250px)
