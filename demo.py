@@ -1,7 +1,3 @@
-# way to upload image: endpoint
-# way to save the image
-# function to make prediction on the image
-# show the results
 import os
 
 from flask import Flask
