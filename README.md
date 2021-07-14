@@ -4,7 +4,7 @@
 1. Install and run Docker
 2. Build Docker image using `docker build . -t simp_server`
 3. Run Docker container using `docker run --rm -it -p 8888:8888 simp_server`
-4. Go to `http://localhost:8888/` to see all available methods of the API
+4. Go to `http://localhost:8888/`
 
 ## Source code
 * [simpsons_baseline.ipynb](simpsons_baseline.ipynb) contains my research
